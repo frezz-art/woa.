@@ -2,11 +2,10 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 var prefix = '.'
-var token = 'NjE3NDk1MjYxODcwMTYxOTI1.Xa7vtQ.iPTm3tI89F3i8PiAtXvXCKitDpA'
-
+var token = 'votre token'
 // Log dans la console : bot co
 
-// lien pour invite le bot : https://discordapp.com/oauth2/authorize?client_id=617495261870161925&permissions=8&scope=bot
+// lien pour invite le bot : (votre lien facultatif)
 client.login(token);
 
 client.on('ready', () => { 
